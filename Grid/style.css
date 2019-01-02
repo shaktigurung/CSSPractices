@@ -1,0 +1,13 @@
+h1{
+    color:blue;
+}
+.wrapper{
+    display: grid;
+}
+.wrapper div{
+    background: #eee;
+    padding: 1em;
+}
+.wrapper div:nth-child(odd){
+    background: #ddd;
+}
